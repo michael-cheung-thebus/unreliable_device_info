@@ -4,11 +4,12 @@ For getting device info, including some that isn&#x27;t exposed in a official&#x
 
 ## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+Just plug and play at the moment.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+Plugin is expected to handle exceptions, rather than throw PlatformException
+
+After a method call, you can check UnreliableDeviceInfo.hasException
+and UnreliableDeviceInfo.exceptionMessage
+
+But mainly should probably assume that it likely didn't give any usable info
+and handle things accordingly

@@ -1,8 +1,9 @@
 name: unreliable_device_info
 description: For getting device info, including some that isn&#x27;t exposed in a official&#x2F;neat&#x2F;reliable way
-version: 0.0.1
-author:
-homepage:
+version: 0.1.0
+author: Oahu Transit Services, Inc. <michael.cheung@thebus.org>
+homepage: https://www.thebus.org/
+repository: https://github.com/michael-cheung-thebus/unreliable_device_info
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
